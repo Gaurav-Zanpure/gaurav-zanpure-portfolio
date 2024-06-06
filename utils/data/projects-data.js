@@ -4,11 +4,11 @@ import realEstate from '/public/image/real-estate.jpg';
 import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
-    {
+    {   
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        name: 'Endpoint Profile Database',
+        description: "As a Software Engineer at LTIMindtree Ltd. in the Media & Entertainment business unit (Paramount Pictures), I worked as a Backend Engineer on the Endpoint Profiler Service (EPD) to develop and maintain REST endpoints that stored and managed data for partners, including user-configured packaging details, media (video, audio, ancillary, metadata, subtitle, caption) details, and technical specifications. This data directed workflows for content delivery via Linear Distribution (Broadcasting via Satellite), Non-Linear (OTT via CDN), or over Internet IP. I developed and maintained REST APIs in Spring Boot for data storage in PostgreSQL, implemented an Audit Revision and Rollback feature to manage partner data changes, and built a cost-effective AWS serverless utility using Lambda Functions in Python. Additionally, I optimized a time-consuming API using multithreading, analyzed and improved the structural quality of the EPD application with CAST AIP, implemented REST APIs in Django-Rest framework, and wrote an ingestion logic in Python for migrating production data from PostgreSQL to MongoDB, reducing migration time by 20%. ",
+        tools: ['Java 8', 'SpringBoot', 'Liquibase', 'Gradle', 'Hazelcast Cache', 'JHipster', 'NewRelic', 'Swagger', 'HELM', 'SonarQube' , 'Cast API', 'JUnit', 'Python', 'Django REST', 'AWS S3', 'AWS Lambda', 'Jenkins', 'Kubernetes', 'PostgreSQL', 'MongoDB', 'Postman', 'Figma', 'Spring Tool Suite', 'PyCharm', 'Confluence', 'Jira'],
         role: 'Backend Developer',
         code: '',
         demo: '',
@@ -16,34 +16,64 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Interactive System for Product Purchase',
+        description: "My team and I developed an interactive system for product purchases through gesture and voice, aimed at creating a virtual humanoid attendant for electronic stores. We captured hand gesture images, identified hand regions using the YCbCr color model, and preprocessed these images by converting them to grayscale. Image segmentation was performed to prepare datasets for training, and data generators were created for both training and validation. A CNN was implemented using TensorFlow and Keras to detect and identify hand gestures, while an NLP model using NLTK was developed to comprehend user commands and simulate human-like behavior. ",
+        tools: ['Java', 'SwingAPI', 'Python', 'Tensorflow', 'Keras', 'Natural Language ToolKit', 'MySQL'],
+        role: 'Full Stack Developer',
+        code: '',
+        demo: '',
+        image: crefin,
+    },
+    {
+        id: 3,
+        name: 'Hospital Transparency',
+        description: 'I developed a Java Swing API-based system that allows users to register patients, assign doctors to patients, and update illness information for loyal customers. Doctors can view patients, see other doctors, and check patient treatment status, with all records stored in and retrieved from a MySQL database.',
+        tools: ['Java', 'SwingAPI', "MySQL", "JDBC", "IntellIJ", "MySQL"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
         image: travel,
     },
     {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        id: 4,
+        name: 'Media Transfer With UDP',
+        description: 'I developed a robust client-server application enabling seamless real-time transfer of files, audio, or video between two hosts over an Internet Protocol (IP) network. Each data packet undergoes meticulous analysis and validation using traces recorded with the Wireshark tool, ensuring the utmost integrity and reliability throughout the transfer process.',
+        tools: ['Java', 'DatagramSocket', 'Wireshark', 'EclipseIDE'],
         code: '',
-        role: 'Full Stack Developer',
+        role: 'CLI developer',
         demo: '',
         image: realEstate,
     },
     {
-        id: 4,
-        name: 'Newsroom Management',
+        id: 5,
+        name: 'P2P Chat Application with TCP',
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        tools: ['Java', 'Socket', 'ServerSocket', 'Wireshark', "EclipseIDE"],
         code: '',
+        role: 'CLI developer',
         demo: '',
         image: ayla,
-        role: 'Full Stack Developer',
-    }
+    },
+    {
+        id: 6,
+        name: 'Location Tracer - Android Application',
+        description: "Location Tracer is a mobile application developed using Java and Android Studio. It is designed to track and display the user's real-time location on a map interface. Leveraging Google Maps API and GPS technology, the app provides accurate location tracking, allowing users to monitor their movements. Users can customize map views, add markers for points of interest, and explore various map types such as Normal, Hybrid, Satellite, and Terrain.",
+        tools: ["Java", "Android Studio", "Google Maps API", "GPS"],
+        code: '',
+        role: 'Android Application Developer',
+        demo: '',
+        image: crefin,
+    },
+    {
+        id: 2,
+        name: "ABGR Fruit Shop - Automation Testing",
+        description: "ABGR Fruit Shop - Automation Testing is a project aimed at automating the testing of a website using Selenium and TestNG. The website was thoroughly tested for functionality, usability, and performance. The tests, written in Java, cover various aspects of the website's functionality, including navigation, form submission, and data validation. TestNG framework is utilized for test execution, providing comprehensive reporting and test management capabilities.",
+        tools: ["Selenium", "TestNG", "Java"],
+        role: "Quality Assurance",
+        code: "",
+        demo: "",
+        image: crefin
+    }   
 ];
 
 

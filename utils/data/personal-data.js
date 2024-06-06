@@ -1,17 +1,14 @@
 export const personalData = {
-  name: "ABU SAID",
+  name: "Gaurav Zanpure",
   profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  designation: "Software Engineer",
+  description: "My name is Gaurav Zanpure. I am a professional and enthusiastic software engineer with a passion for tackling new challenges and solving complex problems. I am a quick learner with a proactive and self-learning attitude. I love to explore new technologies and continuously improve my skills. I thrive on understanding intricate systems, optimizing performance, and implementing efficient solutions. I am passionate about all aspects of web application development and strive to make the web more open and accessible. My core skills lie in Java, Spring Boot, and Python, but I am always eager to expand my expertise. I am available for any job opportunities that align with my skills and interests. ",
+  email: 'zanpuregaurav@gmail.com',
+  phone: '+12134776520',
+  address: '1021 W 20th St. ',
+  github: 'https://github.com/Gaurav-Zanpure',
+  linkedIn: 'https://www.linkedin.com/in/gaurav-zanpure-188236207/',
+  leetcode: "https://leetcode.com/u/zanpuregaurav/",
+  devUsername: "gauravzp",
+  resume: "https://drive.google.com/file/d/1-a6wSJx35d1ZqTxMQvZVVjK5UPv5QhCJ/view"
 }
