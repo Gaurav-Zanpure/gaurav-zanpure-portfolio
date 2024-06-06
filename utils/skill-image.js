@@ -59,6 +59,7 @@ import react from '/public/svg/skills/react.svg';
 import ruby from '/public/svg/skills/ruby.svg';
 import selenium from '/public/svg/skills/selenium.svg';
 import sketch from '/public/svg/skills/sketch.svg';
+import springboot from '/public/svg/skills/springboot.svg';
 import strapi from '/public/svg/skills/strapi.svg';
 import svelte from '/public/svg/skills/svelte.svg';
 import swift from '/public/svg/skills/swift.svg';
@@ -191,6 +192,8 @@ export const skillsImage = (skill) => {
       return selenium;
     case 'strapi':
       return strapi;
+    case 'springboot':
+      return springboot;
     case 'tensorflow':
       return tensorflow;
     case 'webix':
